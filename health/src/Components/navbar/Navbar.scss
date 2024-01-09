@@ -1,0 +1,51 @@
+.navbar{
+    width: 100%; //adjust spacing 
+    background-color: #45B39D;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    position: fixed; // on top even on scroll
+    top: 0;
+    z-index: 99999; // jiski jitni jyada z index vo sabke upar than one with less z index
+    align-items: center;
+    
+    .container{
+        margin: 10px 0;
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        .left{
+            display: flex;
+            align-items: center;
+            img{
+                height: 25px;
+                margin-right: 40px;
+                padding-left: 0px;
+            }
+            span{
+                cursor: pointer;
+                margin-right: 20px;
+            }
+            .logo{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            img{
+                cursor: pointer;
+                width: 25px;
+                height: 30px;
+                border-radius: 50px;
+                object-fit: cover;
+            }
+            
+        }
+    }
+}

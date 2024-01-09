@@ -1,0 +1,77 @@
+.wrapper {
+    // width: 100vw;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    // padding: 20px;
+
+    .cal {
+
+        height: 470px;
+        flex: 2;
+        margin: 20px 15px 0 0;
+        // padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 2px solid rgb(239, 238, 238);
+        
+        .up {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+            .text {
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .css-1q04gal-MuiDateCalendar-root {
+                height: 277px !important;
+            }
+        }
+
+        .gauge-chart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            .text {
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+        }
+
+    }
+
+
+    .chart {
+        background-color: rgb(209, 242, 235);
+        height: 430px;
+        -webkit-box-shadow: 10px 10px 63px -35px rgba(89, 88, 89, 1);
+        -moz-box-shadow: 10px 10px 63px -35px rgba(89, 88, 89, 1);
+        box-shadow: 10px 10px 63px -35px rgba(89, 88, 89, 1);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+
+        .text {
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .cont {
+            padding: 10px;
+
+        }
+    }
+}

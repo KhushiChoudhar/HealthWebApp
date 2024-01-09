@@ -1,8 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import Calender from './pages/moodTracker/Calender';
+import Register from './pages/register/Register';
 function App() {
-  return (
+  /*return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +25,17 @@ function App() {
         </a>
       </header>
     </div>
-  );
+    
+  );*/
+  return(
+    <Router>
+      <Routes>
+        <Route path='/'element={<Calender></Calender>}/>
+        <Route path='/register' element={<Register></Register>}></Route>
+
+      </Routes>
+    </Router>
+  )
 }
 
 export default App;
